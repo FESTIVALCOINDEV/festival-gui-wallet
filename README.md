@@ -1,5 +1,5 @@
-# festival-gui-wallet
-Festival GUI Wallet
+# Festival GUI Wallet
+
 
 Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers, The Forknote developers  
 Copyright (c) 2017-2018, The FestivalCoin developers
