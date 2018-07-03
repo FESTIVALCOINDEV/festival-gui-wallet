@@ -10,9 +10,6 @@ This is a GUI wallet for usage with the FestivalCoin (FEST) cryptocurrency.
 
 ## Build
 
-Currently, build is supported out of the box only on Linux (tested with Ubuntu 16.04) and Windows (64-bit only). Mac OS should theoretically work but is untested.
-
-
 You first need to clone the FestivalCoin Core repository. Then, create a symlink named `cryptonote` to the repository you just cloned.
 
 ### Linux
