@@ -7,7 +7,6 @@
 #pragma once
 
 #include <QFrame>
-
 #include <IWallet.h>
 #include <IWalletLegacy.h>
 #include "SendGlassFrame.h"
@@ -36,7 +35,7 @@ private:
   QList<TransferFrame*> m_transfers;
   AddressProvider* m_addressProvider;
   SendGlassFrame* m_glassFrame;
-
+  const uint64_t sub_transaction_size = 20000000000;
   QString remote_node_fee_address;
   quint64 remote_node_fee;
   quint64 total_amount;
