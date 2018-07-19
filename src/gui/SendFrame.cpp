@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2015-2016 XDN developers
-// Copyright (c) 2016-2017 The Karbowanec developers
+// Copyright (c) 2016-2017 The FestivalCoin developers
 // Copyright (c) 2018 Festivalcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -290,7 +290,7 @@ namespace WalletGui {
 			if (m_ui->donateCheckBox->isChecked()) {
 				QVector<CryptoNote::WalletLegacyTransfer> Qv2;
 				CryptoNote::WalletLegacyTransfer walletTransfer;
-				walletTransfer.address = "fyTvWksha2QEx1gXquUyAGLGZeMZ22pQbGNUUuCGx58q2CZkMqouw9Ja1zJj8FXMxWfpwyjGKJ1MUjMNnAC6rgjv1YQ5jn2XE";
+				walletTransfer.address = "fyU7Ay1dyEXg6CBfcANgmbf7E28MVjNrJRyq4NiA4qiUYix9yXn1iVm92AsGdU9HiWM6y9rjisRWyMJbCDHJx5xn2P5GFkuJR";
 				walletTransfer.amount = CurrencyAdapter::instance().parseAmount(m_ui->m_donateSpin->cleanText());
 				Qv2.push_back(walletTransfer);
 				walletTransfers.push_back(Qv2);

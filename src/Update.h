@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The Karbowanec developers
+// Copyright (c) 2016 The FestivalCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef UPDATE_H
@@ -10,7 +10,7 @@
 #include <QNetworkReply>
 #include <QUrl>
 
-const static QString FESTIVALCOIN_UPDATE_URL = "http://explorer.parsicoin.net/update.txt";
+const static QString FESTIVALCOIN_UPDATE_URL = "http://explorerfestivalcoin.com/update.txt";
 
 class Updater : public QObject
 {

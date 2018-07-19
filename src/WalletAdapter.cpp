@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2016 The Cryptonote developers
 // Copyright (c) 2015-2016 XDN developers
-// Copyright (c) 2016-2017 The Karbowanec developers
+// Copyright (c) 2016-2017 The FestivalCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -319,7 +319,7 @@ bool WalletAdapter::getAccountKeys(CryptoNote::AccountKeys& _keys) {
 }
 
 void WalletAdapter::sendTransaction(const QVector<CryptoNote::WalletLegacyTransfer>& _transfers, quint64 _fee, const QString& _paymentId, quint64 _mixin) {
-	::_sleep(100);
+	//::_sleep(100);
   Q_CHECK_PTR(m_wallet);
   try {
     lock();
