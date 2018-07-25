@@ -98,7 +98,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "206.189.13.50:8349" << "138.68.242.140:8349";
+  defaultNodesList << "89.42.210.190:8349" << "206.189.13.50:8349" << "138.68.242.140:8349" << "178.128.41.176:8348";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
@@ -260,7 +260,7 @@ QString Settings::getCurrentRemoteNode() const {
         remotenode = m_settings.value(OPTION_REMOTE_NODE).toString();
 	}
 	else {
-		remotenode = "206.189.13.50:8349";
+		remotenode = "89.42.210.190:8349";
     }
     return remotenode;
 }

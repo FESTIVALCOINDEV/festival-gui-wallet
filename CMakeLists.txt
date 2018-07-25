@@ -262,7 +262,7 @@ elseif (WIN32)
   target_link_libraries(${PROJECT_NAME} Imm32 Iphlpapi Winmm)
 endif (APPLE)
 
-qt5_use_modules(${PROJECT_NAME} Widgets Gui Network)
+target_link_libraries(${PROJECT_NAME} Widgets Gui Network)
 
 # Installation
 
