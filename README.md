@@ -4,9 +4,9 @@
 Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers, The Forknote developers  
 Copyright (c) 2017-2018, The FestivalCoin developers
 
-# BitcoiNote GUI Wallet
+# FestivalCoin (FEST) GUI Wallet
 
-This is a GUI wallet for usage with the FestivalCoin (FEST) cryptocurrency.
+This is a GUI wallet for usage with the FestivalCoin (FEST) cryptocurrency. Based on Bytecoin source-code.
 
 ## Build
 
