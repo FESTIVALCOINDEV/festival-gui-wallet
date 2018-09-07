@@ -118,7 +118,7 @@ void MainWindow::connectToSignals() {
 }
 
 void MainWindow::initUi() {
-  setWindowTitle(QString(tr("FestivalCoin Wallet v1.0.2")).arg(Settings::instance().getVersion()));
+  setWindowTitle(QString(tr("FestivalCoin Wallet v2.0.0")).arg(Settings::instance().getVersion()));
 #ifdef Q_OS_WIN32
   createTrayIcon();
 #endif
